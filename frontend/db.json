@@ -1,0 +1,63 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Admin",
+            "email": "admin@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": 1,
+            "name": "User 1",
+            "email": "user1@gmail.com",
+            "password": "123456"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "recipient": "Paulo Henrique",
+            "deliveryman": "Iago Rocha",
+            "city": "Divinópolis",
+            "state": "MG",
+            "status": "delivered",
+            "status_label": "ENTREGUE"
+        },
+        {
+            "id": 2,
+            "recipient": "João Pedro",
+            "deliveryman": "Fernando Silva",
+            "city": "Belo Horizonte",
+            "state": "MG",
+            "status": "pending",
+            "status_label": "PENDENTE"
+        },
+        {
+            "id": 3,
+            "recipient": "Júlia Mendes",
+            "deliveryman": "Pedro Henrique",
+            "city": "São Paulo",
+            "state": "SP",
+            "status": "withdrawal",
+            "status_label": "RETIRADA"
+        },
+        {
+            "id": 4,
+            "recipient": "Gerson Pereira",
+            "deliveryman": "Iago Rocha",
+            "city": "Divinópolis",
+            "state": "MG",
+            "status": "canceled",
+            "status_label": "CANCELADA"
+        },
+        {
+            "id": 5,
+            "recipient": "Jússara da Conceição",
+            "deliveryman": "Pedro Henrique",
+            "city": "São Paulo",
+            "state": "SP",
+            "status": "delivered",
+            "status_label": "ENTREGUE"
+        }
+    ]
+}
